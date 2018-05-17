@@ -30,5 +30,26 @@
 
 쉽고 편하게 UI 가이드를 공유하고, 작업 히스토리를 관리할 수 있으며, 디자인 항목에 직접 코멘트를 입력할 수 있다는 점이 인상적입니다.
 
-### 머터리얼 아이콘(Material Icons)
-기존에 제공되던 900개 이상의 아이콘들이 Filled, Outlined, Rounded, Two-Tone, Sharp 5가지 
+## 컬러, 타이포그래피, 모양
+<img src="https://img.youtube.com/vi/Ty6VjgVHiko/0.jpg" height="300"/>
+
+섹션을 듣다보면 자주 언급되는 단어는 컬러(Color), 타이포그래피(Typography), 모양(Shape) 입니다. 디자이너가 레진코믹스 안드로이드 앱에 어울리는 머터리얼 컬러, 타입, 모양 테마를 디자인해주면 개발자가 쉽게 컴포넌트(Components)에 적용할 수 있도록 지원합니다.
+
+### 컬러 테마(Color theme)
+일부 컴포넌트에 커스터마이징 컬러 테마를 적용할 수 있도록 업데이트 되었습니다.
+*  Android 지원<sup>1)</sup> - Bottom Navigation, Buttons, Cards, Chips, FAB, Tabs, Top App Bar, Text Fields
+
+<img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/14.png" height="300"/> <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/15.png" height="300"/>
+
+### 타입 테마(Type theme)
+일부 컴포넌트에 커스터마이징 타입 테마를 적용할 수 있도록 업데이트 되었습니다.
+ *  Android 지원<sup>1)</sup> - Bottom Navigation, Buttons, Chips, FAB, Tabs, Top App Bar, Text Fields
+
+<img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/16.png" height="400"/> 
+
+### 모양(Shape)
+Buttons, Cards 컴포넌트의 모양 변경을 할 수 있도록 업데이트 예정입니다.<sup>1)
+* 기본 모양은 직사각형에 4dp 라운드 모서리를 가집니다.
+* 둥근 모서리 또는 잘린 모서리 등의 모양 변경을 지원합니다.
+
+<img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/17.png" height="300"/> <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/18.png" height="300"/>
