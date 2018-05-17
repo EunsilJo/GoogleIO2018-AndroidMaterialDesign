@@ -19,9 +19,6 @@
 * __아이콘__ : Filled 테마의 아이콘을 사용해보았습니다.
 
 ### 갤러리(Gallery)
-
-<img src="https://img.youtube.com/vi/Ty6VjgVHiko/0.jpg" height="300"/>
-
 갤러리는 디자이너와 개발자간 협업할 수 있는 Zeplin 과 같은 툴입니다. 스케치에서 Upload to Gallery 버튼만 누르면 작업한 디자인을 바로 동료에게 공유하고 피드백 받을 수 있습니다.
 
 <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/5.png" height="300"/> | <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/6.png" height="300"/>
