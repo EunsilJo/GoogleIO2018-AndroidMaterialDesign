@@ -38,7 +38,7 @@
 
 <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/9.png"/> <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/10.png"/> <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/11.png"/> <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/12.png"/> <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/13.png"/>
 
-<sup>왼쪽부터 Filled, Outlined, Rounded, Two-Tone, Sharp 테마
+<sup>왼쪽부터 Filled, Outlined, Rounded, Two-Tone, Sharp 테마의 delete_forever 아이콘
 
 ## 컬러, 타이포그래피, 모양
 <img src="https://img.youtube.com/vi/Ty6VjgVHiko/0.jpg" height="300"/>
