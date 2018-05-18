@@ -20,7 +20,9 @@
 * __모양__ : 좌측 상단 모서리에 커브를 적용하고 Cards 컴포넌트에 적용된 것을 확인할 수 있었습니다.
 * __아이콘__ : Filled 테마의 머터리얼 아이콘을 다운로드하여 사용해보았습니다.
 
-> 컴포넌트 가져와서 사용하기 추가
+<img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/16.png" height="400"/>
+
+나만의 머터리얼 테마 컴포넌트로 빠르게 디자인 작업이 가능합니다.
 
 ### 갤러리(Gallery)
 갤러리는 디자이너와 개발자간 협업할 수 있는 Zeplin과 같은 도구입니다. 스케치에서 'Upload to Gallery' 버튼만 누르면 작업한 디자인을 동료에게 바로 공유하고 피드백 받을 수 있습니다.
@@ -34,7 +36,7 @@
 보다 디테일한 UI 가이드를 공유하고, 작업 히스토리를 관리할 수 있으며, 디자인 항목에 직접 코멘트를 작성할 수 있다는 점이 인상적입니다. 현재 사용하고 있는 협업 도구와 장단점을 비교하여 사용해보면 좋을 것 같습니다.
 
 ### 머터리얼 아이콘(Material Icons)
-기존 제공되던 900개 이상의 머터리얼 아이콘들이 Filled, Outlined, Rounded, Two-Tone, Sharp 5가지 테마로 업데이트되었습니다. 안드로이드 해상도별 다양한 사이즈의 아이콘을 제공하고 있어 급하게 아이콘이 필요할 경우 유용하게 사용할 수 있을 것 같습니다.
+기존 제공되던 900개 이상의 머터리얼 아이콘들이 Filled, Outlined, Rounded, Two-Tone, Sharp 5가지 테마로 업데이트되었습니다. 안드로이드 해상도별 다양한 사이즈의 아이콘을 제공하고 있어 아이콘이 필요할 경우 유용하게 사용할 수 있을 것 같습니다.
 
 <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/9.png"/> <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/10.png"/> <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/11.png"/> <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/12.png"/> <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/13.png"/>
 
@@ -51,6 +53,8 @@
 
 <img src="https://material.io/design/assets/1tMjPWuw0mKBm0FgoF41tWq42m2Q9kJXO/theming-color-primarysecondary.png" height="300"/> <img src="https://material.io/design/assets/1AAAsWiyKIb-C6OMypeviPSzMSoBwD7m7/theming-color-surfacesbgs.png" height="300"/>
 
+> 소스
+
 ### 타입 테마(Type theme)
 일부 컴포넌트에 커스터마이징 타입 테마를 적용할 수 있도록 업데이트 되었습니다.
  *  Android 지원<sup>1)</sup> - Bottom Navigation, Buttons, Chips, FAB, Tabs, Top App Bar, Text Fields
@@ -64,6 +68,17 @@ Buttons, Cards 컴포넌트의 모양 변경을 할 수 있도록 업데이트 �
 
 <img src="https://material.io/design/assets/0B6xUSjjSulxcN21PWXZ6VHZtMFk/shapingmaterial-hero-1.png" height="300"/> <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/15.png" height="300"/>
 
-> 컴포넌트 시작은 알파-베타 릴리즈 관련 서론
+## 컴포넌트
+<img src="https://img.youtube.com/vi/D7LB-QPxH9c/0.jpg" height="300"/>
+
+구글은 머터리얼 디자인 컴포넌트 오픈소스 라이브러리(MDC-Android)를 공개하였습니다. 아직 알파(Alpha) 버전으로 적극적으로 사용하기에 걱정스럽기는 합니다만, 릴리즈 로드맵에서 2018년 7월에 안드로이드 베타(Beta) 버전을 제공하고 2018년 11월까지 지속적인 릴리즈를 진행한다는 계획을 확인할 수 있어 버튼과 같이 기본적인 컴포넌트를 하나씩 적용해보면 좋을 것 같습니다.
+
+> 라이브러리 사용법
+
+금번 새롭게 공개된 컴포넌트들은 Backdrop, Bottom App Bar, Extended FAB 입니다.
+
+### Backdrop
+
+> 컴포넌트 시작은 알파-베타 릴리즈 관련 서론, 
 
 > 마무리는 다양한 플랫폼을 아우르는 머터리얼 디자인
