@@ -204,7 +204,7 @@ Backdrop은 백 레이어(Back layer)에서 프론트 레이어(Front layer)에 
 * __Shrine(demo)__ : Top App Bar 스크롤, Bottom Navigation, Cards 등 컴포넌트들을 확인 할 수 있습니다.
 * __Shrine(codelabs)__ : Backdrop, Outlined Text Fileds, Shape 적용 등을 확인할 수 있습니다.
 
-<img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/19.jpg" height="300"/> <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/20.jpg" height="300"/> | <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/21.jpg" height="300"/> | <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/23.jpg" height="300"/> <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/24.jpg" height="300"/>
+<img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/19.jpg" height="300"/> <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/20.jpg" height="300"/> | <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/21.jpg" height="300"/> | <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/22.jpg" height="300"/> <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/23.jpg" height="300"/>
 --- | --- | ---
 
 <sup>왼쪽부터 Material Components, Shrine(demo), Shrine(codelabs)
