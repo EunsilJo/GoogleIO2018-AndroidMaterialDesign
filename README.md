@@ -65,22 +65,71 @@
 </style>
 ```
 
-AppCompat 테마에서 기존 제공하던 colorPrimary, colorPrimaryDark, colorAccent 속성과 더불어 colorPrimaryLight, colorSecondary, colorSecondaryDark, colorSecondaryLight 등의 MaterialComponents 속성을 지원합니다.
+AppCompat 테마에 기존 제공하던 colorPrimary, colorPrimaryDark, colorAccent 속성과 더불어 colorPrimaryLight, colorSecondary, colorSecondaryDark, colorSecondaryLight 등의 MaterialComponents 속성을 추가할 수 있도록 지원합니다.
 
 <img src="https://material.io/design/assets/1tMjPWuw0mKBm0FgoF41tWq42m2Q9kJXO/theming-color-primarysecondary.png" height="300"/> <img src="https://material.io/design/assets/1AAAsWiyKIb-C6OMypeviPSzMSoBwD7m7/theming-color-surfacesbgs.png" height="300"/>
 
-추가로 Variant 컬러, colorBackground, colorError, colorSurface 그리고 'On' 컬러를 설정할 수 있도록 업데이트 예정입니다.
+추가로 Variant 컬러, Background, Error, Surface 그리고 'On' 컬러를 설정할 수 있도록 업데이트 예정입니다.
 
-### 타입 테마(Type theme)
+### 타이포그래피 테마(Typography theme)
 일부 컴포넌트에 커스터마이징 타입 테마를 적용할 수 있도록 업데이트 되었습니다.
  *  Android 지원<sup>1)</sup> - Bottom Navigation, Buttons, Chips, FAB, Tabs, Top App Bar, Text Fields
+ 
+ ```
+ <style name="TextAppearance.MyApp.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
+  ...
+  <item name="fontFamily">@font/custom_font</item>
+  <item name="android:textStyle">normal</item>
+  <item name="textAllCaps">false</item>
+  <item name="android:textSize">64sp</item>
+  <item name="android:letterSpacing">0</item>
+  ...
+</style>
+ ```
+ 
+ ```
+ <style name="Theme.MyApp" parent="Theme.MaterialComponents.Light">
+  ...
+  <item name="textAppearanceHeadline1">@style/TextAppearance.MyApp.Headline1</item>
+  ...
+</style>
+ ```
 
-<img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/14.png" height="400"/> 
+MaterialComponents 테마의 textAppearanceHeadline1, textAppearanceBody1 등의 속성에 폰트 이름, 사이즈, 글자 간격 등을 설정할 수 있습니다.
+
+<img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/14.png" height="400"/>
 
 ### 모양(Shape)
 Buttons, Cards 컴포넌트의 모양 변경을 할 수 있도록 업데이트 예정입니다.<sup>1)
 * 기본 모양은 직사각형에 4dp 라운드 모서리를 가집니다.
 * 둥근 모서리 또는 잘린 모서리 등의 모양 변경을 지원합니다.
+  
+```
+<style name="Theme.MyApp" parent="Theme.MaterialComponents.Light">
+  ...
+  <item name="cornerRadiusPrimary">8dp</item>
+  <item name="cornerStylePrimary">cut</item>
+  <item name="cornerRadiusSecondary">4dp</item>
+  <item name="cornerStyleSecondary">cut</item>
+  ...
+</style> 
+```
+ 
+```
+<style name="Widget.MyApp.MyCard" parent="Widget.MaterialComponents.MaterialCardView">
+  <item name="cardCornerRadius">?attr/cornerRadiusSecondary</item>
+</style> 
+```
+ 
+```
+<style name="Theme.MyApp" parent="Theme.MaterialComponents.Light">
+  ...
+  <item name="materialCardViewStyle">@style/Widget.MyApp.MyCard</item>
+  ...
+</style>
+```
+
+MaterialComponents 테마의 cornerRadius, Style 속성을 설정하여 Cards 컴포넌트의 모양을 변경할 수 있습니다.
 
 <img src="https://material.io/design/assets/0B6xUSjjSulxcN21PWXZ6VHZtMFk/shapingmaterial-hero-1.png" height="300"/> <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/15.png" height="300"/>
 
