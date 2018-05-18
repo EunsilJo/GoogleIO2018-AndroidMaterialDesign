@@ -172,11 +172,11 @@ Bottom App Bar는 기존 Top App Bar의 액션(Action)을 화면 하단에서 �
 </android.support.design.widget.CoordinatorLayout>
 ```
 
-fabAlignmentMode, fabCradleMargin 등 BottomAppBar의 속성에 FAB의 위치, 간격 등을 설정할 수 있습니다.
-
 ```
 style="@style/Widget.MaterialComponents.BottomAppBar"
 ```
+
+fabAlignmentMode, fabCradleMargin 등 BottomAppBar의 속성에 FAB의 위치, 간격 등을 설정할 수 있습니다.
 
 <img src="https://www.material.io/design/assets/1jE77atbSz5gSZOwmVjo3dNUs0bLAJhES/usage-when-do.png" height="300"/> | <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/17.png" height="300"/>
 --- | ---
