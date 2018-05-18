@@ -152,9 +152,6 @@ Bottom App Bar는 기존 Top App Bar의 액션(Action)을 화면 하단에서 �
 * Bottom Navigation Bar와 함께 사용하지 않도록
 * 최소 두개에서 최대 다섯개의 액션 버튼이 존재하도록 가이드하고 있습니다.
 
-<img src="https://www.material.io/design/assets/1jE77atbSz5gSZOwmVjo3dNUs0bLAJhES/usage-when-do.png" height="300"/> | <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/17.png" height="300"/>
---- | ---
-
 ```
 <android.support.design.widget.CoordinatorLayout
     ...>
@@ -180,6 +177,9 @@ style="@style/Widget.MaterialComponents.BottomAppBar"
 ```
 
 fabAlignmentMode, fabCradleMargin 등 BottomAppBar의 속성에 FAB의 위치, 간격 등을 설정할 수 있습니다.
+
+<img src="https://www.material.io/design/assets/1jE77atbSz5gSZOwmVjo3dNUs0bLAJhES/usage-when-do.png" height="300"/> | <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/17.png" height="300"/>
+--- | ---
 
 ### Backdrop
 Backdrop은 백 레이어(Back layer)에서 프론트 레이어(Front layer)에 관련된 정보를 표시하거나, 컨트롤(필터) 할 수 있습니다. (Android 지원 예정<sup>1)</sup>)
