@@ -51,9 +51,25 @@
 일부 컴포넌트에 커스터마이징 컬러 테마를 적용할 수 있도록 업데이트 되었습니다.
 *  Android 지원<sup>1)</sup> - Bottom Navigation, Buttons, Cards, Chips, FAB, Tabs, Top App Bar, Text Fields
 
+```
+<style name="Widget.MyApp.MyButton" parent="Widget.MaterialComponents.Button">
+  <item name="backgroundTint">?attr/colorPrimary</item>
+</style>
+```
+
+```
+<style name="Theme.MyApp" parent="Theme.MaterialComponents.Light">
+  ...
+  <item name="materialButtonStyle">@style/Widget.MyApp.MyButton</item>
+  ...
+</style>
+```
+
+AppCompat 테마에서 기존 제공하던 colorPrimary, colorPrimaryDark, colorAccent 속성과 더불어 colorPrimaryLight, colorSecondary, colorSecondaryDark, colorSecondaryLight 등의 MaterialComponents 속성을 지원합니다.
+
 <img src="https://material.io/design/assets/1tMjPWuw0mKBm0FgoF41tWq42m2Q9kJXO/theming-color-primarysecondary.png" height="300"/> <img src="https://material.io/design/assets/1AAAsWiyKIb-C6OMypeviPSzMSoBwD7m7/theming-color-surfacesbgs.png" height="300"/>
 
-> 소스
+추가로 Variant 컬러, colorBackground, colorError, colorSurface 그리고 'On' 컬러를 설정할 수 있도록 업데이트 예정입니다.
 
 ### 타입 테마(Type theme)
 일부 컴포넌트에 커스터마이징 타입 테마를 적용할 수 있도록 업데이트 되었습니다.
