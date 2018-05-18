@@ -146,11 +146,37 @@ MaterialComponents 테마의 cornerRadius, Style 속성을 설정하여 Cards �
 금번 새롭게 공개된 컴포넌트들은 Bottom App Bar, Backdrop, Extended FAB 입니다.
 
 ### Bottom App Bar
-Bottom App Bar는 기존 Top App Bar 의 Action 을 화면 하단에서 할 수 있으며, FAB(Floating action button) 과 함께 사용할 수 있도록 디자인 되었습니다.
+Bottom App Bar는 기존 Top App Bar의 액션(Action)을 화면 하단에서 할 수 있으며, FAB(Floating Action Button)과 함께 사용할 수 있도록 디자인 되었습니다.
 
 * 모바일 장비에서만 사용 하도록
-* 하단 탭(bottom navigation bar) 과 함께 사용하지 않도록
-* 최소 두개에서 최대 다섯개의 Action 버튼이 존재하도록 가이드하고 있습니다.
+* Bottom Navigation Bar와 함께 사용하지 않도록
+* 최소 두개에서 최대 다섯개의 액션 버튼이 존재하도록 가이드하고 있습니다.
+
+```
+<android.support.design.widget.CoordinatorLayout
+    ...>
+
+  <!-- Other components and views -->
+
+  <com.google.android.material.bottomappbar.BottomAppBar
+      android:id="@+id/bar"
+      ...
+      android:layout_gravity="bottom"
+      app:navigationIcon="@drawable/ic_menu_24"/>
+
+  <com.google.android.material.floatingactionbutton.FloatingActionButton
+      android:id="@+id/fab"
+      ...
+      app:layout_anchor="@id/bar"/>
+
+</android.support.design.widget.CoordinatorLayout>
+```
+
+MaterialComponents 테마의 fabAlignmentMode, fabCradleMargin 등의 속성을 설정하여 FAB의 위치, 간격 등을 변경할 있습니다.
+
+```
+style="@style/Widget.MaterialComponents.BottomAppBar"
+```
 
 <img src="https://www.material.io/design/assets/1jE77atbSz5gSZOwmVjo3dNUs0bLAJhES/usage-when-do.png" height="300"/> | <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/17.png" height="300"/>
 --- | ---
