@@ -182,14 +182,14 @@ style="@style/Widget.MaterialComponents.BottomAppBar"
 --- | ---
 
 ### Backdrop
-Backdrop은 Back layer 에서 Front layer 에 관련된 정보를 표시하거나, 컨트롤(필터) 할 수 있습니다. (Android 지원 예정<sup>1)</sup>)
+Backdrop은 Back layer 에서 Front layer 에 관련된 정보를 표시하거나, 컨트롤(필터) 할 수 있습니다.(Android 지원 예정<sup>1)</sup>)
 
 <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/18.png" height="300"/> | 
 <img src="https://www.material.io/design/assets/1X4A16PCyC1bmfXPtU8sOy1x4n8rn6Gv3/usage-04.png" height="300"/> | <img src="https://www.material.io/design/assets/1ri2zTYAhsUgD0b5v7_CuUNwPCM1gLrL5/usage-05.png" height="300"/>
 --- | --- | ---
 
 ### Extended FAB
-기존 아이콘만 표시하는 FAB(Floating action button) 가 너비가 더 넓고 텍스트를 표시할 수 있도록 확장되었습니다. (Android 지원 예정<sup>1)</sup>)
+기존 아이콘만 표시하는 FAB(Floating Action Button)가 너비가 더 넓고 텍스트를 표시할 수 있도록 확장되었습니다.(Android 지원 예정<sup>1)</sup>)
 
 * 아이콘(optional) 과 한줄의 텍스트를 가집니다.
 * 모바일에서 하단 중앙 혹은 우측에 위치합니다.
@@ -197,9 +197,6 @@ Backdrop은 Back layer 에서 Front layer 에 관련된 정보를 표시하거�
 <img src="https://www.material.io/design/assets/1P8peBxVujhfPIPwolj6hPeiSiAZUiKnw/extended-fab-01.png" height="300"/> | <img src="https://www.material.io/design/assets/1AfbKI0cPem2iAZLkUInkJJLz4FRAPWOE/extfab-noicon.png" height="300"/>
 --- | ---
 
-
-
-> 라이브러리 사용법
 
 > 마무리는 다양한 플랫폼을 아우르는 머터리얼 디자인
 
