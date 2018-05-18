@@ -200,23 +200,14 @@ Backdrop은 백 레이어(Back layer)에서 프론트 레이어(Front layer)에 
 ### 샘플
 컴포넌트들의 모양과 동작을 직접 확인 할 수 있게 MDC-Android는 여러 샘플 앱을 제공합니다.
 
-#### Material Components(catalog)
-Bottom App Bar 외 최신 컴포넌트들을 확인할 수 있습니다.
+* __Material Components(catalog)__ : Bottom App Bar 외 최신 컴포넌트들을 확인할 수 있습니다.
+* __Shrine(demo)__ : Top App Bar 스크롤, Bottom Navigation, Cards 등 컴포넌트들을 확인 할 수 있습니다.
+* __Shrine(codelabs)__ : Backdrop, Outlined Text Fileds, Shape 적용 등을 확인할 수 있습니다.
 
-<img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/19.jpg" height="300"/> | <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/20.jpg" height="300"/>
---- | ---
+<img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/19.jpg" height="300"/> <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/20.jpg" height="300"/> | <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/21.jpg" height="300"/> | <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/23.jpg" height="300"/> <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/24.jpg" height="300"/>
+--- | --- | ---
 
-#### Shrine(demo)
-Top App Bar 스크롤, Bottom Navigation, Cards 등 컴포넌트들을 확인 할 수 있습니다.
-
-<img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/21.jpg" height="300"/> | <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/22.jpg" height="300"/>
---- | ---
-
-#### Shrine(codelabs)
-Backdrop, Outlined Text Fileds, Shape 적용 등을 확인할 수 있습니다.
-
-<img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/23.jpg" height="300"/> | <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/24.jpg" height="300"/>
---- | ---
+<sup>왼쪽부터 Material Components, Shrine(demo), Shrine(codelabs)
 
 ## 플러터(Flutter)
 <img src="https://img.youtube.com/vi/hA0hrpR-o8U/0.jpg" height="300"/>
