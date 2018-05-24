@@ -212,7 +212,7 @@ Backdrop은 백 레이어(Back layer)에서 프론트 레이어(Front layer)에 
 ## 플러터(Flutter)
 <img src="https://img.youtube.com/vi/hA0hrpR-o8U/0.jpg" height="300"/>
 
-플러터는 새롭게 등장한 구글의 모바일 UI 프레임워크입니다. 기존에는 안드로이드 UI 구현을 위해 layout, style 등 다수의 관련 xml 파일을 작성했다면, 플러터를 이용해서는 코드로 위젯 트리(Widget tree)작성이 가능하며, 뷰의 상태나 이벤트에 따른 UI 변경을 동적으로 쉽게 할 수 있습니다.
+플러터는 새롭게 등장한 구글의 모바일 UI 프레임워크입니다. 기존에는 안드로이드 UI 구현을 위해 layout, style 등 다수의 관련 xml 파일을 작성했다면, 플러터를 이용해서는 다트(Dart) 언어 코드로 위젯 트리(Widget tree)작성이 가능하며, 뷰의 상태나 이벤트에 따른 UI 변경을 동적으로 쉽게 할 수 있습니다.
 
 * __빠른 개발 가능__ : 몇 초만에 UI 빌드가 가능하여 UI, 버그 수정을 빠르게 할 수 있습니다.
 * __아름다운 UI 구현 가능__ : 안드로이드 머터리얼 디자인, iOS 스타일의 쿠퍼티노(Cupertino) 위젯, 다양한 모션 API 등을 제공합니다.
@@ -243,7 +243,12 @@ class SampleApp extends StatelessWidget {
 <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/24.png" height="400"/> | <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/25.png" height="400"/>
 --- | ---
 
-> 마무리는 다양한 플랫폼을 아우르는 머터리얼 디자인
+## 마무리
+구글 머터리얼 디자인은 이제 안드로이드 플랫폼만의 디자인이 아닙니다. 금번 구글 I/O에서는 안드로이드 뿐 아니라 iOS, 웹(Web) 샘플 프로젝트 시연이 중점적으로 진행되었고, 컴포넌트 라이브러리도 각 플랫폼 별로 제공되고 있습니다. 또한 다양한 플랫폼에서 공통으로 UI 개발이 가능한 플러터 프레임워크도 오픈소스로 제공합니다. 하지만 애플(Apple)에서도 iOS 디자인 가이드를 제공하고 있고, 플랫폼 별 디자인에 대해서는 다양한 관점 및 의견이 있어 통합되기에 시간이 더 필요할 것 같습니다.
+
+이제 레진코믹스 앱을 잘 표현해줄 수 있는, 레진코믹스만의 머터리얼 테마를 디자인하고 개발할 시간입니다!
+
+## 참조
 
 > 링크 필요한 것 찾아서 처리하기
 
