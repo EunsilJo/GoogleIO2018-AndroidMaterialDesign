@@ -2,7 +2,7 @@
 구글 I/O 2018 에 발표된 안드로이드 머터리얼 디자인(Android Material Design) 관련 내용을 리뷰합니다. 이번 구글 I/O에서는 총 48개의 디자인 관련 앱 리뷰(App Review), 오피스 아워(Office Hour), 섹션(Session) 등이 준비되었고, 그 중 14개의 섹션이 유투브에 업데이트되었습니다. 다양한 디자인 섹션 중 이번 글에서는 안드로이드 앱 개발과 관련된 새로운 머터리얼 디자인 도구(Material Design Tool)들과 주요 컴포넌트(Components)들에 대해 정리하고자 합니다.
 
 ## 새로운 머터리얼 디자인 도구들
-<img src="https://img.youtube.com/vi/3VUMl_l-_fI/0.jpg" height="300"/>
+<img src="https://img.youtube.com/vi/Ty6VjgVHiko/0.jpg" height="300"/>
 
 구글은 인기 디자인 툴킷(Toolkit)인 스케치(Sketch)와 연동할 수 있는 머터리얼 플러그인(Material Plugin)을 새롭게 공개하였습니다.(macOS High Sierra 10.13 이상 지원) 머터리얼 플러그인을 추가하면 머터리얼 테마를 커스터마이징하여 디자인에 쉽게 적용하고 공유할 수 있습니다.
 
@@ -45,7 +45,7 @@
 <sup>왼쪽부터 Filled, Outlined, Rounded, Two-Tone, Sharp 테마의 delete_forever 아이콘
 
 ## 컬러, 타이포그래피, 모양
-<img src="https://img.youtube.com/vi/Ty6VjgVHiko/0.jpg" height="300"/>
+<img src="https://img.youtube.com/vi/3VUMl_l-_fI/0.jpg" height="300"/>
 
 섹션을 듣다보면 자주 언급되는 단어는 컬러(Color), 타이포그래피(Typography), 모양(Shape) 입니다. 디자이너가 레진코믹스 안드로이드 앱에 어울리는 머터리얼 컬러, 타입, 모양 테마를 가이드해주면 개발자가 쉽게 컴포넌트(Components)에 적용할 수 있도록 지원합니다.
 
@@ -212,6 +212,36 @@ Backdrop은 백 레이어(Back layer)에서 프론트 레이어(Front layer)에 
 ## 플러터(Flutter)
 <img src="https://img.youtube.com/vi/hA0hrpR-o8U/0.jpg" height="300"/>
 
+플러터는 새롭게 등장한 구글의 모바일 UI 프레임워크입니다. 기존에는 안드로이드 UI 구현을 위해 layout, style 등 다수의 관련 xml 파일을 작성했다면, 플러터를 이용해서는 코드로 위젯 트리(Widget tree)작성이 가능하며, 뷰의 상태나 이벤트에 따른 UI 변경을 동적으로 쉽게 할 수 있습니다.
+
+* __빠른 개발 가능__ : 몇 초만에 UI 빌드가 가능하여 UI, 버그 수정을 빠르게 할 수 있습니다.
+* __아름다운 UI 구현 가능__ : 안드로이드 머터리얼 디자인, iOS 스타일의 쿠퍼티노(Cupertino) 위젯, 다양한 모션 API 등을 제공합니다.
+* __리엑티브한 프레임워크__ : 위젯 기반으로 애니메이션, 제스쳐, 효과 등의 UI 구현이 쉽게 가능합니다.
+* __네이티브 기능 연동 가능__ : 안드로이드, iOS 플랫폼 네이티브 API, 서드파티(3rd party) SDK 기능들과 연동 가능합니다.
+
+
+### 머터리얼 스타일 앱(Material-styled app)
+
+```dart
+class SampleApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return new MaterialApp(
+      title: 'Sample App',
+      theme: new ThemeData(
+        primarySwatch: Colors.blue,
+        textSelectionColor: Colors.red
+      ),
+      home: new SampleAppPage(),
+    );
+  }
+}
+```
+
+기존 AndroidManifest.xml 파일의 application에 앱 테마를 설정하는 것 대신, 플러터 MaterialApp 위젯을 이용하여 앞서 작성한 나만의 머터리얼 테마를 앱에 적용할 수 있습니다. 
+
+<img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/24.png" height="400"/> | <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/25.png" height="400"/>
+--- | ---
 
 > 마무리는 다양한 플랫폼을 아우르는 머터리얼 디자인
 
