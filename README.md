@@ -20,7 +20,8 @@
 * __모양__ : 좌측 상단 모서리에 커브를 적용하고 Cards 컴포넌트에 적용된 것을 확인할 수 있었습니다.
 * __아이콘__ : Filled 테마의 머터리얼 아이콘을 다운로드하여 사용해보았습니다.
 
-<img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/16.png" height="400"/>
+<img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/16.png" height="400"/> |
+--- |
 
 나만의 머터리얼 테마 컴포넌트로 빠르게 디자인 작업이 가능합니다.
 
@@ -38,7 +39,8 @@
 ### 머터리얼 아이콘(Material Icons)
 기존 제공되던 900개 이상의 머터리얼 아이콘들이 Filled, Outlined, Rounded, Two-Tone, Sharp 5가지 테마로 업데이트되었습니다. 안드로이드 해상도별 다양한 사이즈의 아이콘을 제공하고 있어 아이콘이 필요할 경우 유용하게 사용할 수 있을 것 같습니다.
 
-<img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/9.png"/> <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/10.png"/> <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/11.png"/> <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/12.png"/> <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/13.png"/>
+<img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/9.png"/> | <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/10.png"/> | <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/11.png"/> | <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/12.png"/> | <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/13.png"/>
+--- | --- | --- | --- | ---
 
 <sup>왼쪽부터 Filled, Outlined, Rounded, Two-Tone, Sharp 테마의 delete_forever 아이콘
 
@@ -67,7 +69,8 @@
 
 AppCompat 테마에 기존 제공하던 colorPrimary, colorPrimaryDark, colorAccent 속성과 더불어 colorPrimaryLight, colorSecondary, colorSecondaryDark, colorSecondaryLight 등의 MaterialComponents 속성을 추가할 수 있도록 지원합니다.
 
-<img src="https://material.io/design/assets/1tMjPWuw0mKBm0FgoF41tWq42m2Q9kJXO/theming-color-primarysecondary.png" height="300"/> <img src="https://material.io/design/assets/1AAAsWiyKIb-C6OMypeviPSzMSoBwD7m7/theming-color-surfacesbgs.png" height="300"/>
+<img src="https://material.io/design/assets/1tMjPWuw0mKBm0FgoF41tWq42m2Q9kJXO/theming-color-primarysecondary.png" height="300"/> | <img src="https://material.io/design/assets/1AAAsWiyKIb-C6OMypeviPSzMSoBwD7m7/theming-color-surfacesbgs.png" height="300"/>
+--- | ---
 
 추가로 Variant 컬러, Background, Error, Surface 그리고 'On' 컬러를 설정할 수 있도록 업데이트 예정입니다.
 
@@ -95,9 +98,10 @@ AppCompat 테마에 기존 제공하던 colorPrimary, colorPrimaryDark, colorAcc
 </style>
  ```
 
-MaterialComponents 테마의 textAppearanceHeadline1, textAppearanceBody1 등의 속성에 폰트 이름, 사이즈, 글자 간격 등을 설정할 수 있습니다.
+textAppearanceHeadline1, textAppearanceBody1 등 MaterialComponents 테마 속성에 폰트 이름, 사이즈, 글자 간격 등을 설정할 수 있습니다.
 
-<img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/14.png" height="400"/>
+<img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/14.png" height="400"/> |
+--- |
 
 ### 모양(Shape)
 Buttons, Cards 컴포넌트의 모양 변경을 할 수 있도록 업데이트 예정입니다.<sup>1)
@@ -129,21 +133,87 @@ Buttons, Cards 컴포넌트의 모양 변경을 할 수 있도록 업데이트 �
 </style>
 ```
 
-MaterialComponents 테마의 cornerRadius, Style 속성을 설정하여 Cards 컴포넌트의 모양을 변경할 수 있습니다.
+MaterialComponents 테마의 cornerRadius, Style 속성을 설정하여 Cards 컴포넌트의 스타일 및 모양을 변경할 수 있습니다.
 
-<img src="https://material.io/design/assets/0B6xUSjjSulxcN21PWXZ6VHZtMFk/shapingmaterial-hero-1.png" height="300"/> <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/15.png" height="300"/>
+<img src="https://material.io/design/assets/0B6xUSjjSulxcN21PWXZ6VHZtMFk/shapingmaterial-hero-1.png" height="300"/> | <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/15.png" height="300"/>
+--- | ---
 
 ## 컴포넌트
 <img src="https://img.youtube.com/vi/D7LB-QPxH9c/0.jpg" height="300"/>
 
-구글은 머터리얼 디자인 컴포넌트 오픈소스 라이브러리(MDC-Android)를 공개하였습니다. 아직 알파(Alpha) 버전으로 적극적으로 사용하기에 걱정스럽기는 합니다만, 릴리즈 로드맵에서 2018년 7월에 안드로이드 베타(Beta) 버전을 제공하고 2018년 11월까지 지속적인 릴리즈를 진행한다는 계획을 확인할 수 있어 버튼과 같이 기본적인 컴포넌트를 하나씩 적용해보면 좋을 것 같습니다.
+구글은 머터리얼 디자인 컴포넌트 라이브러리(MDC-Android)를 오픈소스로 공개하였습니다. 아직 알파(Alpha) 버전으로 적극적으로 사용하기에 걱정스럽기는 합니다만, 2018년 7월에 안드로이드 베타(Beta) 버전을 제공하고 2018년 11월까지 지속적인 릴리즈를 진행한다는 로드맵을 공유하고 있습니다. 버튼과 같이 기본적인 컴포넌트를 하나씩 적용해보면 좋을 것 같습니다.
 
-> 라이브러리 사용법
+새롭게 공개된 컴포넌트는 Bottom App Bar, Backdrop, Extended FAB 입니다.
 
-금번 새롭게 공개된 컴포넌트들은 Backdrop, Bottom App Bar, Extended FAB 입니다.
+### Bottom App Bar
+Bottom App Bar는 기존 Top App Bar의 액션(Action)을 화면 하단에서 할 수 있으며, FAB(Floating Action Button)과 함께 사용할 수 있도록 디자인 되었습니다.
+
+* 모바일 장비에서만 사용 하도록
+* Bottom Navigation Bar와 함께 사용하지 않도록
+* 최소 두개에서 최대 다섯개의 액션 버튼이 존재하도록 가이드하고 있습니다.
+
+```
+<android.support.design.widget.CoordinatorLayout
+    ...>
+
+  <!-- Other components and views -->
+
+  <com.google.android.material.bottomappbar.BottomAppBar
+      android:id="@+id/bar"
+      ...
+      android:layout_gravity="bottom"
+      app:navigationIcon="@drawable/ic_menu_24"/>
+
+  <com.google.android.material.floatingactionbutton.FloatingActionButton
+      android:id="@+id/fab"
+      ...
+      app:layout_anchor="@id/bar"/>
+      
+</android.support.design.widget.CoordinatorLayout>
+```
+
+```
+style="@style/Widget.MaterialComponents.BottomAppBar"
+```
+
+fabAlignmentMode, fabCradleMargin 등 BottomAppBar의 속성에 FAB의 위치, 간격 등을 설정할 수 있습니다.
+
+<img src="https://www.material.io/design/assets/1jE77atbSz5gSZOwmVjo3dNUs0bLAJhES/usage-when-do.png" height="300"/> | <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/17.png" height="300"/>
+--- | ---
 
 ### Backdrop
+Backdrop은 백 레이어(Back layer)에서 프론트 레이어(Front layer)에 관련된 정보를 표시하거나, 컨트롤(필터) 할 수 있습니다. (Android 지원 예정<sup>1)</sup>)
 
-> 컴포넌트 시작은 알파-베타 릴리즈 관련 서론, 
+<img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/18.png" height="300"/> | 
+<img src="https://www.material.io/design/assets/1X4A16PCyC1bmfXPtU8sOy1x4n8rn6Gv3/usage-04.png" height="300"/> | <img src="https://www.material.io/design/assets/1ri2zTYAhsUgD0b5v7_CuUNwPCM1gLrL5/usage-05.png" height="300"/>
+--- | --- | ---
+
+### Extended FAB
+기존 아이콘만 표시하는 FAB(Floating Action Button)가 너비가 더 넓고 텍스트를 표시할 수 있도록 확장되었습니다. (Android 지원 예정<sup>1)</sup>)
+
+* 아이콘(optional) 과 한줄의 텍스트를 가집니다.
+* 모바일에서 하단 중앙 혹은 우측에 위치합니다.
+
+<img src="https://www.material.io/design/assets/1P8peBxVujhfPIPwolj6hPeiSiAZUiKnw/extended-fab-01.png" height="300"/> | <img src="https://www.material.io/design/assets/1AfbKI0cPem2iAZLkUInkJJLz4FRAPWOE/extfab-noicon.png" height="300"/>
+--- | ---
+
+### 샘플
+컴포넌트들의 모양과 동작을 직접 확인 할 수 있게 MDC-Android는 여러 샘플 앱을 제공합니다.
+
+* __Material Components(catalog)__ : Bottom App Bar 외 최신 컴포넌트들을 확인할 수 있습니다.
+* __Shrine(demo)__ : Top App Bar 스크롤, Bottom Navigation, Cards 등 컴포넌트들을 확인 할 수 있습니다.
+* __Shrine(codelabs)__ : Backdrop, Outlined Text Fileds, Shape 적용 등을 확인할 수 있습니다.
+
+<img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/19.jpg" height="300"/> <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/20.jpg" height="300"/> | <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/21.jpg" height="300"/> | <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/22.jpg" height="300"/> <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/23.jpg" height="300"/>
+--- | --- | ---
+
+<sup>왼쪽부터 Material Components, Shrine(demo), Shrine(codelabs)
+
+## 플러터(Flutter)
+<img src="https://img.youtube.com/vi/hA0hrpR-o8U/0.jpg" height="300"/>
+
 
 > 마무리는 다양한 플랫폼을 아우르는 머터리얼 디자인
+
+> 링크 필요한 것 찾아서 처리하기
+
