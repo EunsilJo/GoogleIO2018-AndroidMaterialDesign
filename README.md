@@ -249,7 +249,8 @@ class SampleApp extends StatelessWidget {
 이제 레진코믹스 앱을 잘 표현해줄 수 있는, 레진코믹스만의 머터리얼 테마를 디자인하고 개발할 시간입니다. 이츠 디벨롭 타임므~!
 
 ## 참조
-Building Material Design products: https://youtu.be/Ty6VjgVHiko
+[Building Material Design products]:https://youtu.be/Ty6VjgVHiko
+
 Customize Material Components: https://youtu.be/3VUMl_l-_fI
 New in Material Design: https://youtu.be/D7LB-QPxH9c
 Flutter & Material Design: https://youtu.be/hA0hrpR-o8U
