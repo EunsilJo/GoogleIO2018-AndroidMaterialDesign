@@ -240,7 +240,7 @@ class SampleApp extends StatelessWidget {
 
 기존 AndroidManifest.xml 파일의 application에 앱 테마를 설정하는 것 대신, 플러터 MaterialApp 위젯을 생성하여 앞서 디자인한 나만의 머터리얼 테마를 앱에 적용할 수 있습니다. 
 
-<img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/24.png" height="400"/> | <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/25.png" height="400"/>
+<img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/24.png" height="300"/> | <img src="https://github.com/EunsilJo/GoogleIO2018-AndroidMaterialDesign/blob/master/screenshots/25.png" height="300"/>
 --- | ---
 
 ## 마무리
@@ -249,13 +249,14 @@ class SampleApp extends StatelessWidget {
 이제 레진코믹스 앱을 잘 표현해줄 수 있는, 레진코믹스만의 머터리얼 테마를 디자인하고 개발할 시간입니다. _이츠 디벨롭 타임므~!_
 
 ## 참조
-
-1. Building Material Design products: https://youtu.be/Ty6VjgVHiko
-1. Customize Material Components: https://youtu.be/3VUMl_l-_fI
-1. New in Material Design: https://youtu.be/D7LB-QPxH9c
-1. Flutter & Material Design: https://youtu.be/hA0hrpR-o8U
-1. Getting started with Material Theme Editor: https://youtu.be/BLrgDgd_1c0
-1. Getting started with Gallery: https://youtu.be/TIB3q68ZHYw
+* Building Material Design products: https://youtu.be/Ty6VjgVHiko
+* Customize Material Components: https://youtu.be/3VUMl_l-_fI
+* New in Material Design: https://youtu.be/D7LB-QPxH9c
+* Flutter & Material Design: https://youtu.be/hA0hrpR-o8U
+* Getting started with Material Theme Editor: https://youtu.be/BLrgDgd_1c0
+* Getting started with Gallery: https://youtu.be/TIB3q68ZHYw
+* https://design.google/library/making-more-with-material/
+* https://flutter.io/flutter-for-android/
 
 [구글 I/O 2018]:https://events.google.com/io/
 [14개의 섹션이 유투브에]:https://www.youtube.com/playlist?list=PLOU2XLYxmsIKzJveaJfgBm6ifuV4N2PPM
@@ -276,11 +277,6 @@ class SampleApp extends StatelessWidget {
 [Shrine(codelabs)]:https://github.com/material-components/material-components-android-codelabs/tree/master/java/shrine
 [플러터(Flutter)]:https://flutter.io/
 [머터리얼 스타일 앱(Material-styled app)]:https://flutter.io/flutter-for-android/#how-do-i-theme-my-material-styled-app
-
-1. https://design.google/library/making-more-with-material/
-1. https://www.material.io/design/components/
-1. https://github.com/material-components/material-components-android
-1. https://flutter.io/flutter-for-android/
 
 ---
 <sup>1) MDC-Android 라이브러리 지원 여부로 Android 지원여부 표시하였습니다.(2018년 5월 릴리즈 기준)
