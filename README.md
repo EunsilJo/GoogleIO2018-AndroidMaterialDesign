@@ -141,7 +141,7 @@ MaterialComponents 테마의 cornerRadius, Style 속성을 설정하여 Cards �
 ## 컴포넌트
 <img src="https://img.youtube.com/vi/D7LB-QPxH9c/0.jpg" height="300"/>
 
-구글은 머터리얼 디자인 컴포넌트 라이브러리(MDC-Android)를 [오픈소스](https://github.com/material-components/material-components-android)로 공개하였습니다. 아직 알파(Alpha) 버전으로 적극적으로 사용하기에 걱정스럽기는 합니다만, 2018년 7월에 안드로이드 베타(Beta) 버전을 제공하고 2018년 11월까지 지속적인 릴리즈를 진행한다는 [로드맵](https://github.com/material-components/material-components/blob/develop/ROADMAP.md)을 제공하고 있습니다. 버튼과 같이 기본적인 컴포넌트를 하나씩 적용해보면 좋을 것 같습니다.
+구글은 [머터리얼 디자인 컴포넌트 라이브러리(MDC-Android)](https://github.com/material-components/material-components-android)를 오픈소스로 공개하였습니다. 아직 알파(Alpha) 버전으로 적극적으로 사용하기에 걱정스럽기는 합니다만, 2018년 7월에 안드로이드 베타(Beta) 버전을 제공하고 2018년 11월까지 지속적인 릴리즈를 진행한다는 [로드맵](https://github.com/material-components/material-components/blob/develop/ROADMAP.md)을 제공하고 있습니다. 버튼과 같이 기본적인 컴포넌트를 하나씩 적용해보면 좋을 것 같습니다.
 
 새롭게 공개된 컴포넌트는 Bottom App Bar, Backdrop, Extended FAB 입니다.
 
